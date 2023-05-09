@@ -1,0 +1,20 @@
+body{
+  background-color: #E7E7E7;
+}
+
+.my-div{
+  background-color: #393737;
+  border-radius: 40px;
+}
+
+.presenter {
+  position: relative;
+  z-index: 2;
+}
+
+.my-box {
+  position: absolute;
+  top: 20%;
+  left: 51.46%;
+  z-index: 1;
+}
