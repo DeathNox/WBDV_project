@@ -1,20 +1,118 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
   background-color: #E7E7E7;
+  min-height: 100%;
+  position: relative;
+  margin: 0;
+  padding-bottom: 20%;
 }
 
 .my-div{
   background-color: #393737;
-  border-radius: 40px;
+  border-radius: 70px;
 }
 
 .presenter {
   position: relative;
-  z-index: 2;
+  z-index: 3;
+  padding-top: 65px;
 }
 
 .my-box {
   position: absolute;
-  top: 20%;
-  left: 51.46%;
+  top: 8%;
+  left: 51.3%;
   z-index: 1;
 }
+
+.centered{
+  display: flex;
+  justify-content: center;
+}
+
+.log-in{
+  background-color: #BB9948;
+  color: #E7E7E7;
+}
+
+.log-in:hover,
+.log-in:focus{
+  background-color: #BB9948;
+}
+
+.create-acc{
+  background-color: #5D5D5D;
+  color: #E7E7E7;
+}
+
+.label1{
+  color: #CFCFCF;
+}
+
+.create-acc:hover, 
+.create-acc:focus{
+  background-color: #5D5D5D;
+}
+
+span{
+  display: inline-block;
+  height: auto;
+  z-index: 2;
+  background-color: #393737;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+footer .container{
+  max-width: 100%;
+  height: 100px;
+  background-color: #514E61;
+  padding-left: 20px;
+}
+
+.footer-links{  
+  display: flex;
+  justify-content: center;
+  
+}
+
+.footer-links a{
+  padding-left: 12px;
+  color: #E7E7E7;
+  text-decoration: none;
+}
+
+.fa-brands{
+  font-size: 30px;
+}
+
+.com{
+  color: #E7E7E7;
+  margin-top: 4px;
+  text-decoration: none;
+}
+
+.logos{
+  position: absolute;
+  left: 4%;
+  margin-top: 5px;
+}
+
+.logos, .footer-links{
+  margin: 10px 0 12px 0;
+}
+
+.container p{
+  margin-bottom: 0;
+  color: #E7E7E7;
+  padding-left: 37px;
+}
+
